@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #ecd6c0;
+    font-family: 'opens sans','helvetica neue',Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+td{
+    vertical-align: text-top;
+}
+ul li{
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*tipo de letra*/
+    font-size: 22px; /*tamaño de letra*/
+    height: 60px; /*altura de cada opción de la lista*/
+}
+ul li a{
+    height: 60px; /*Altura*/
+    background-color:#bf9780; /*Color del fondo*/
+    display: block;
+    border-left: 10px solid rgb(8, 96, 179);
+    border-right: 5px solid rgb(144, 253, 111);
+    padding-left: 15px; /*Separación izquierda del texto*/
+    text-decoration: none;
+    color: black
+}
+ul li a:hover{
+    margin-left: 10px; /*Separación de lado izquierdo*/
+    color: black; /*Color de la letra*/
+    background-color: #; /*Color de fondo*/
+    box-shadow: 10px 10px 20px #000; /*sombra*/
+    transform: rotate(4deg); /*movimiento de rotacion*/
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+ td{
+    vertical-align: top;
+ }
+
+a {
+   text-decoration: none;
+   color: rgb(73, 20, 221);
+}
+div {
+    color:black;
+    height: 100%;
+    height: 100%;
+    padding: 20px 10px 20px 40px;
+    margin: 10px;
+    border: 1px solid #831010;
+    background-color: #d8af97;
+    border-radius: 15px;
+    border: solid 2px #10b367;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 5px #000000;
+}
+
+.copyright{
+    text-align: center;
+}
+/* Estilo del contenedor de Acerca */
+.contenedor {
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    width: 400px; /* Ancho deseado del div */
+    height: 350px; /* Alto deseado del div */
+    background-color: #d8af97; /* Color de fondo del div */
+    margin: 60px 450px; /* Margen horizontal automático para centrar el div */
+    padding: 40px; /* Espacio interior para el contenido del div */
+    border: none;
+    box-shadow:none;
+    border-radius: none;
+    
+    }
+/* Estilo para el icono */
+.icono {
+    color: #000000;
+    border-radius: 75%;
+}
+.icono-contenedor {
+    display: inline-block; /* Hace que el contenedor sea en línea para que esté junto al título */
+}
+
+.volver{
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el espaciado interno según sea necesario */
+    background-color: #a68069; /* Color de fondo del enlace */
+    color: black; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+.volver:focus {
+    outline: none; /* Elimina el resaltado al hacer clic */
+}
+
+.volver2{
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el espaciado interno según sea necesario */
+    background-color: #d8af97; /* Color de fondo del enlace */
+    color:black; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+.volver2:focus {
+    outline: none; /* Elimina el resaltado al hacer clic */
+}
+.ir{
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el espaciado interno según sea necesario */
+    background-color: #d8af97; /* Color de fondo del enlace */
+    color:black; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    border-radius: 10px; /* Agrega bordes redondeados */
+}
+.ir:focus {
+    outline: none; /* Elimina el resaltado al hacer clic */
+}
+.ir2{
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el espaciado interno según sea necesario */
+    background-color: #a68069; /* Color de fondo del enlace */
+    color:black; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+.ir:focus {
+    outline: none; /* Elimina el resaltado al hacer clic */
+}
+.subrayado-color {
+    text-decoration: underline; /* Subrayado */
+    color: brown; /* Color del subrayado (en este caso, rojo) */
+}
